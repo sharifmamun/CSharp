@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Module5
 {
@@ -6,9 +7,17 @@ namespace Module5
     {                
         public string degreeName;
 
+        public List<Course> crsList = new List<Course>();
+
         public Degree(string degreeName)
         {
             this.degreeName = degreeName;
         }
+
+        public void addCourse(Course c)
+        {
+            this.crsList.Add(c);
+        }
+
     }
 }
