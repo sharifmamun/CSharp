@@ -1,60 +1,9 @@
 ﻿using System;
 
-namespace Module1
+namespace Module5
 {
     class Program
     {        
-        public struct Student
-        {
-            public string firstName;
-            public string lastName;
-            public string birthDate;
-
-            public Student(string firstName, string lastName, string birthDate)
-            {
-                this.firstName = firstName;
-                this.lastName = lastName;
-                this.birthDate = birthDate;
-            }
-
-        }
-
-        public struct Teacher
-        {
-            public string firstName;
-            public string lastName;
-            public string birthDate;
-
-            public Teacher(string firstName, string lastName, string birthDate)
-            {
-                this.firstName = firstName;
-                this.lastName = lastName;
-                this.birthDate = birthDate;
-            }
-        }
-
-        public struct SchoolProgram
-        {
-            public string programName;
-
-            public SchoolProgram(string programName)
-            {
-                this.programName = programName;                
-            }
-        }
-
-        public struct Course
-        {
-            public string courseName;
-            public string courseID;
-
-            public Course(string courseName, string courseID)
-            {
-                this.courseName = courseName;
-                this.courseID = courseID;
-            }
-        }
-
         static void Main(string[] args)
         {
             // Creating an array to hold 5 student structs
